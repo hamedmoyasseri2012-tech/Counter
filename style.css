@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  gap: 20px;
+}
+.Counter > h1 {
+  font-size: 64px;
+  font-weight: bold;
+}
+.Counter > span {
+  font-size: 64px;
+  font-weight: bolder;
+}
+.btn {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.Minus {
+  border: 1px solid #e13446;
+  background-color: #e13446;
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+  font-size: 36px;
+  color: white;
+}
+.Reset {
+  background-color: #6d747f;
+  border: 1px solid #6d747f;
+  width: 100px;
+  height: 50px;
+  border-radius: 4px;
+  color: white;
+}
+.Plus {
+  background-color: #168651;
+  border: 1px solid #168651;
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+  color: white;
+  font-size: 36px;
+}
