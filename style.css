@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-.Counter {
+.Counter-1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,11 +12,11 @@
   padding-top: 100px;
   gap: 20px;
 }
-.Counter > h1 {
+.Counter-1 > h1 {
   font-size: 64px;
   font-weight: bold;
 }
-.Counter > span {
+.Counter-1 > span {
   font-size: 64px;
   font-weight: bolder;
 }
