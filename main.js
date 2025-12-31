@@ -5,7 +5,7 @@ const Plus = document.getElementById("Plus-btn");
 let count = 0;
 Minus.addEventListener("click", () => {
   count -= 1;
-  count.textContent = count;
+  counter.textContent = count;
   console.log(counter);
   if (count < 0) {
     counter.style.color = "Red";
@@ -13,7 +13,7 @@ Minus.addEventListener("click", () => {
 });
 Plus.addEventListener("click", () => {
   count += 1;
-  count.textContent = count;
+  counter.textContent = count;
   console.log(counter);
   if (count > 0) {
     counter.style.color = "Green";
@@ -21,8 +21,8 @@ Plus.addEventListener("click", () => {
 });
 Reset.addEventListener("click", () => {
   count = 0;
-  count.textContent = count;
-  conscole.log("counter");
+  counter.textContent = count;
+  console.log("counter");
   if (count == 0) {
     counter.style.color = "gray";
   }
